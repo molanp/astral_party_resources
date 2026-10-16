@@ -2,8 +2,8 @@
 
 资源概览
 
-1. char_names.json 35 角色 id->中文名
-2. map_names.json 24 地图 id->中文名
+1. char_names.json 角色 id->中文名
+2. map_names.json 地图 id->中文名
 3. char_art/<id名>/ 角色美术, 文件按分类前缀命名, manifest.json 记录来源:
    rolephoto=立绘 profilephoto=头像 bust=半身 card/card2/thincard=卡面
    levelup=升级/好感图 standing=局内立绘 story=角色故事图

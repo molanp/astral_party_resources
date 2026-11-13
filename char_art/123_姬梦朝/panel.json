@@ -1,0 +1,95 @@
+{
+ "id": 123,
+ "name": "姬梦朝",
+ "title": "风水师",
+ "stats": {
+  "hp": 10,
+  "attack": 1,
+  "defense": 1
+ },
+ "skills": [
+  {
+   "id": 12301,
+   "uses": [
+    "普通主动"
+   ],
+   "name": "白泽赐福",
+   "description": "自身获得治疗溢出量的星币，持续1回合。获得1张[Astral=Card:20027][/Astral]并将手牌中所有的[Astral=Card:20028][/Astral]转化为[Astral=Card:20027][/Astral]。",
+   "round": 3,
+   "parameters": [],
+   "buffs": [
+    {
+     "id": 1230101,
+     "name": "白泽赐福",
+     "description": "获得治疗溢出量的星币",
+     "rules": "类型：正常；标签：无；计时：当前行动回合，延迟 0，持续 1（配置值）；触发清除：否；死亡清除：是；冲突处理：替换；显示：是"
+    }
+   ]
+  },
+  {
+   "id": 12311,
+   "uses": [
+    "普通被动"
+   ],
+   "name": "福祸相倚",
+   "description": "骰点为1时，获得1张[Astral=Card:20028][/Astral]，骰点为6时，获得1张[Astral=Card:20027][/Astral]。",
+   "round": 0,
+   "parameters": [],
+   "buffs": [
+    {
+     "id": 1231101,
+     "name": null,
+     "description": null,
+     "rules": "类型：正常；标签：无；计时：无，延迟 0，持续 1（配置值）；触发清除：否；死亡清除：否；冲突处理：替换；显示：否"
+    }
+   ]
+  },
+  {
+   "id": 12302,
+   "uses": [
+    "PvE 主动"
+   ],
+   "name": "白泽赐福",
+   "description": "指定一个角色施加[Astral=Buff:1230201][/Astral]，目标增加治疗溢出量的攻击力，持续1回合。获得1张[Astral=Card:20027][/Astral]且将手牌中所有的[Astral=Card:20029][/Astral]转化为[Astral=Card:20027][/Astral]。",
+   "round": 3,
+   "parameters": [],
+   "buffs": [
+    {
+     "id": 1230201,
+     "name": "白泽祝福",
+     "description": "增加治疗溢出量的攻击力",
+     "rules": "类型：正常；标签：无；计时：当前行动回合，延迟 0，持续 1（配置值）；触发清除：否；死亡清除：是；冲突处理：替换；显示：是"
+    }
+   ]
+  },
+  {
+   "id": 12312,
+   "uses": [
+    "PvE 被动"
+   ],
+   "name": "福祸相倚",
+   "description": "骰点为1时，获得1张[Astral=Card:20029][/Astral]，骰点为6时，获得1张[Astral=Card:20027][/Astral]。",
+   "round": 0,
+   "parameters": [],
+   "buffs": [
+    {
+     "id": 1231201,
+     "name": null,
+     "description": null,
+     "rules": "类型：正常；标签：无；计时：无，延迟 0，持续 1（配置值）；触发清除：否；死亡清除：否；冲突处理：替换；显示：否"
+    }
+   ]
+  },
+  {
+   "id": 12313,
+   "uses": [
+    "PvE 被动"
+   ],
+   "name": "完美帮手",
+   "description": "对姬梦枫使用[Astral=Card:20027][/Astral]时，目标获得1层[Astral=Buff:1131201][/Astral]。",
+   "round": 0,
+   "parameters": [],
+   "buffs": []
+  }
+ ]
+}

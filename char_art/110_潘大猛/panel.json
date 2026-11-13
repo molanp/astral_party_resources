@@ -1,0 +1,70 @@
+{
+ "id": 110,
+ "name": "潘大猛",
+ "title": "肉弹战车",
+ "stats": {
+  "hp": 14,
+  "attack": 1,
+  "defense": 0
+ },
+ "skills": [
+  {
+   "id": 11001,
+   "uses": [
+    "普通主动"
+   ],
+   "name": "搞事情",
+   "description": "获得[Astral=Card:20009][/Astral]或[Astral=Card:20015][/Astral]中的随机1张。",
+   "round": 4,
+   "parameters": [],
+   "buffs": []
+  },
+  {
+   "id": 11011,
+   "uses": [
+    "普通被动"
+   ],
+   "name": "有好有坏",
+   "description": "所有回血效果+2，但是受到伤害也会+1 。",
+   "round": 0,
+   "parameters": [],
+   "buffs": [
+    {
+     "id": 1101101,
+     "name": null,
+     "description": null,
+     "rules": "类型：正常；标签：无；计时：无，延迟 0，持续 0（配置值）；触发清除：否；死亡清除：否；冲突处理：互斥；显示：否"
+    }
+   ]
+  },
+  {
+   "id": 11002,
+   "uses": [
+    "PvE 主动"
+   ],
+   "name": "大吃特吃",
+   "description": "获得[Astral=Card:20002][/Astral]或[Astral=Card:20014][/Astral]中的随机1张。",
+   "round": 3,
+   "parameters": [],
+   "buffs": []
+  },
+  {
+   "id": 11012,
+   "uses": [
+    "PvE 被动"
+   ],
+   "name": "有好有坏",
+   "description": "使用[Astral=Card:20014][/Astral]、[Astral=Card:20002][/Astral]后，恢复5格内所有友方角色2点生命值。",
+   "round": 0,
+   "parameters": [],
+   "buffs": [
+    {
+     "id": 1101102,
+     "name": null,
+     "description": null,
+     "rules": "类型：正常；标签：无；计时：无，延迟 0，持续 0（配置值）；触发清除：否；死亡清除：否；冲突处理：互斥；显示：否"
+    }
+   ]
+  }
+ ]
+}

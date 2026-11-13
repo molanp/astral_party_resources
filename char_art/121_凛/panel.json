@@ -1,0 +1,84 @@
+{
+ "id": 121,
+ "name": "凛",
+ "title": "新人调查员",
+ "stats": {
+  "hp": 9,
+  "attack": 1,
+  "defense": 1
+ },
+ "skills": [
+  {
+   "id": 12101,
+   "uses": [
+    "普通主动"
+   ],
+   "name": "活体书页",
+   "description": "获得1张[Astral=Card:20030][/Astral]；效果牌射程+3，持续1回合。",
+   "round": 3,
+   "parameters": [],
+   "buffs": [
+    {
+     "id": 1210101,
+     "name": null,
+     "description": null,
+     "rules": "类型：正常；标签：无；计时：当前行动回合，延迟 0，持续 1（配置值）；触发清除：否；死亡清除：是；冲突处理：替换；显示：否"
+    }
+   ]
+  },
+  {
+   "id": 12111,
+   "uses": [
+    "普通被动"
+   ],
+   "name": "调查发现",
+   "description": "事件触发后，获得1张[Astral=Card:20030][/Astral]。",
+   "round": 0,
+   "parameters": [],
+   "buffs": [
+    {
+     "id": 1211101,
+     "name": null,
+     "description": null,
+     "rules": "类型：正常；标签：无；计时：无，延迟 0，持续 0（配置值）；触发清除：否；死亡清除：否；冲突处理：互斥；显示：否"
+    }
+   ]
+  },
+  {
+   "id": 12102,
+   "uses": [
+    "PvE 主动"
+   ],
+   "name": "活体书页",
+   "description": "获得1张[Astral=Card:20031][/Astral]；效果牌射程+3，持续1回合。",
+   "round": 3,
+   "parameters": [],
+   "buffs": [
+    {
+     "id": 1210101,
+     "name": null,
+     "description": null,
+     "rules": "类型：正常；标签：无；计时：当前行动回合，延迟 0，持续 1（配置值）；触发清除：否；死亡清除：是；冲突处理：替换；显示：否"
+    }
+   ]
+  },
+  {
+   "id": 12112,
+   "uses": [
+    "PvE 被动"
+   ],
+   "name": "调查发现",
+   "description": "事件触发后，获得1张[Astral=Card:20031][/Astral]。 每次使用[Astral=Card:20031][/Astral]后，[Astral=Card:20031][/Astral]伤害永久+1。",
+   "round": 0,
+   "parameters": [],
+   "buffs": [
+    {
+     "id": 1211201,
+     "name": "调查发现",
+     "description": "伤害强化次数",
+     "rules": "类型：正常；标签：无；计时：无，延迟 0，持续 0（配置值）；触发清除：否；死亡清除：否；冲突处理：互斥；显示：是"
+    }
+   ]
+  }
+ ]
+}

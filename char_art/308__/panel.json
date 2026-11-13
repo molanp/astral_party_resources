@@ -1,0 +1,106 @@
+{
+ "id": 308,
+ "name": null,
+ "title": null,
+ "stats": {
+  "hp": 9,
+  "attack": 1,
+  "defense": 1
+ },
+ "skills": [
+  {
+   "id": 30801,
+   "uses": [
+    "普通主动"
+   ],
+   "name": null,
+   "description": null,
+   "round": 3,
+   "parameters": [],
+   "buffs": []
+  },
+  {
+   "id": 30811,
+   "uses": [
+    "普通被动"
+   ],
+   "name": null,
+   "description": null,
+   "round": 0,
+   "parameters": [],
+   "buffs": [
+    {
+     "id": 3081101,
+     "name": null,
+     "description": null,
+     "rules": "类型：正常；标签：无；计时：无，延迟 0，持续 0（配置值）；触发清除：否；死亡清除：否；冲突处理：替换；显示：否"
+    },
+    {
+     "id": 3081102,
+     "name": null,
+     "description": "出牌数+1",
+     "rules": "类型：正常；标签：无；计时：当前行动回合，延迟 0，持续 1（配置值）；触发清除：否；死亡清除：否；冲突处理：替换；显示：是"
+    }
+   ]
+  },
+  {
+   "id": 30802,
+   "uses": [
+    "PvE 主动"
+   ],
+   "name": null,
+   "description": null,
+   "round": 3,
+   "parameters": [],
+   "buffs": [
+    {
+     "id": 3080101,
+     "name": null,
+     "description": null,
+     "rules": "类型：正常；标签：无；计时：当前行动回合，延迟 0，持续 1（配置值）；触发清除：否；死亡清除：否；冲突处理：替换；显示：是"
+    },
+    {
+     "id": 3080102,
+     "name": null,
+     "description": null,
+     "rules": "类型：正常；标签：无；计时：当前行动回合，延迟 0，持续 0（配置值）；触发清除：是；死亡清除：否；冲突处理：替换；显示：是"
+    }
+   ]
+  },
+  {
+   "id": 30812,
+   "uses": [
+    "PvE 被动"
+   ],
+   "name": null,
+   "description": null,
+   "round": 0,
+   "parameters": [],
+   "buffs": [
+    {
+     "id": 3081201,
+     "name": null,
+     "description": null,
+     "rules": "类型：正常；标签：无；计时：无，延迟 0，持续 0（配置值）；触发清除：否；死亡清除：否；冲突处理：替换；显示：否"
+    },
+    {
+     "id": 3081202,
+     "name": null,
+     "description": "出牌数+1",
+     "rules": "类型：正常；标签：无；计时：当前行动回合，延迟 0，持续 1（配置值）；触发清除：否；死亡清除：否；冲突处理：替换；显示：是"
+    }
+   ]
+  },
+  {
+   "id": 30813,
+   "uses": [
+    "PvE 被动"
+   ],
+   "name": null,
+   "description": null,
+   "round": 0,
+   "parameters": [],
+   "buffs": []
+  }
+ ]
+}

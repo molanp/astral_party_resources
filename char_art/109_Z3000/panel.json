@@ -1,0 +1,95 @@
+{
+ "id": 109,
+ "name": "Z3000",
+ "title": "垃圾箱",
+ "stats": {
+  "hp": 10,
+  "attack": 1,
+  "defense": 2
+ },
+ "skills": [
+  {
+   "id": 10901,
+   "uses": [
+    "普通主动"
+   ],
+   "name": "过来吧你",
+   "description": "拉取7格内的一个敌方角色到自身所在格，造成1点伤害，并使其移动速度-2，持续1次移动。",
+   "round": 3,
+   "parameters": [
+    {
+     "meaning": "目标范围（格）",
+     "value": 7
+    },
+    {
+     "meaning": "选择目标数量",
+     "value": 1
+    }
+   ],
+   "buffs": [
+    {
+     "id": 1090101,
+     "name": "过来吧你",
+     "description": "移动速度-2",
+     "rules": "类型：正常；标签：无；计时：无，延迟 0，持续 0（配置值）；触发清除：是；死亡清除：是；冲突处理：互斥；显示：是"
+    }
+   ]
+  },
+  {
+   "id": 10911,
+   "uses": [
+    "普通被动"
+   ],
+   "name": "垃圾分类",
+   "description": "使用[Astral=Card:20019][/Astral]、[Astral=Card:20014][/Astral]、[Astral=Card:20002][/Astral]、[Astral=Card:20006][/Astral]时，在所在的地块放置【谜之物体】。",
+   "round": 0,
+   "parameters": [],
+   "buffs": [
+    {
+     "id": 1091101,
+     "name": null,
+     "description": null,
+     "rules": "类型：正常；标签：无；计时：无，延迟 0，持续 0（配置值）；触发清除：否；死亡清除：否；冲突处理：互斥；显示：否"
+    }
+   ]
+  },
+  {
+   "id": 10902,
+   "uses": [
+    "PvE 主动"
+   ],
+   "name": "过来吧你",
+   "description": "拉取7格内的一个怪物到自身所在格，造成5点伤害。",
+   "round": 4,
+   "parameters": [
+    {
+     "meaning": "目标范围（格）",
+     "value": 7
+    },
+    {
+     "meaning": "选择目标数量",
+     "value": 1
+    }
+   ],
+   "buffs": []
+  },
+  {
+   "id": 10912,
+   "uses": [
+    "PvE 被动"
+   ],
+   "name": "回收利用",
+   "description": "击倒怪物后，主动技能冷却时间-2。",
+   "round": 0,
+   "parameters": [],
+   "buffs": [
+    {
+     "id": 1091102,
+     "name": null,
+     "description": null,
+     "rules": "类型：正常；标签：无；计时：无，延迟 0，持续 0（配置值）；触发清除：否；死亡清除：否；冲突处理：无；显示：否"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "id": 127,
+ "name": "邦妮",
+ "title": "毒苹果",
+ "stats": {
+  "hp": 9,
+  "attack": 2,
+  "defense": 1
+ },
+ "skills": [
+  {
+   "id": 12701,
+   "uses": [
+    "普通主动"
+   ],
+   "name": "隐匿行动",
+   "description": "指定一个敌方角色施加[Astral=Buff:1270101][/Astral]与2层[Astral=Buff:10006][/Astral]。\n拥有[Astral=Buff:1270101][/Astral]的角色被击倒后，获得5星币。",
+   "round": 3,
+   "parameters": [],
+   "buffs": [
+    {
+     "id": 1270101,
+     "name": "调查目标",
+     "description": "被击倒时，触发【秘密调查】",
+     "rules": "类型：正常；标签：无；计时：无，延迟 0，持续 0（配置值）；触发清除：否；死亡清除：是；冲突处理：替换；显示：是"
+    }
+   ]
+  },
+  {
+   "id": 12711,
+   "uses": [
+    "普通被动"
+   ],
+   "name": "关键线索",
+   "description": "将[Astral=EventCards:12701]【隐匿调查】[/Astral]置入地图事件池 。\n攻击拥有[Astral=Buff:10006][/Astral]的角色时，攻击力+3。击倒拥有[Astral=Buff:10006][/Astral]的角色时，获得1张战斗牌。",
+   "round": 0,
+   "parameters": [],
+   "buffs": [
+    {
+     "id": 1271101,
+     "name": null,
+     "description": null,
+     "rules": "类型：正常；标签：无；计时：无，延迟 0，持续 0（配置值）；触发清除：否；死亡清除：否；冲突处理：替换；显示：否"
+    }
+   ]
+  },
+  {
+   "id": 12702,
+   "uses": [
+    "PvE 主动"
+   ],
+   "name": "隐匿行动",
+   "description": "指定一个怪物施加[Astral=Buff:1270201][/Astral]与1层[Astral=Buff:10006][/Astral]，并获得目标标记层数*2的星币。",
+   "round": 3,
+   "parameters": [],
+   "buffs": [
+    {
+     "id": 1270201,
+     "name": "调查目标",
+     "description": "被击倒时，触发【秘密调查】，并将【秘密调查】推进至下一阶段",
+     "rules": "类型：正常；标签：无；计时：无，延迟 0，持续 0（配置值）；触发清除：否；死亡清除：是；冲突处理：替换；显示：是"
+    }
+   ]
+  },
+  {
+   "id": 12712,
+   "uses": [
+    "PvE 被动"
+   ],
+   "name": "关键线索",
+   "description": "将[Astral=EventCards:12702|12703|12704|12705]【隐匿调查】[/Astral]置入地图事件池 。\n攻击拥有[Astral=Buff:10006][/Astral]的怪物时，攻击力+3。击倒拥有[Astral=Buff:10006][/Astral]的怪物时，获得1张战斗牌。",
+   "round": 0,
+   "parameters": [],
+   "buffs": [
+    {
+     "id": 1271201,
+     "name": null,
+     "description": null,
+     "rules": "类型：正常；标签：无；计时：无，延迟 0，持续 0（配置值）；触发清除：否；死亡清除：否；冲突处理：替换；显示：否"
+    }
+   ]
+  }
+ ]
+}

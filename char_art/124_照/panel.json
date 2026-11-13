@@ -1,0 +1,96 @@
+{
+ "id": 124,
+ "name": "照",
+ "title": "三神御主",
+ "stats": {
+  "hp": 9,
+  "attack": 2,
+  "defense": 1
+ },
+ "skills": [
+  {
+   "id": 12401,
+   "uses": [
+    "普通主动"
+   ],
+   "name": "降神",
+   "description": "指定一个角色施加[Astral=Buff:1240102][/Astral]，本轮自身增加[Astral=Buff:1240102][/Astral]目标的攻击力与防御力。[Astral=Buff:1240102][/Astral]持续1回合。",
+   "round": 3,
+   "parameters": [],
+   "buffs": [
+    {
+     "id": 1240101,
+     "name": null,
+     "description": null,
+     "rules": "类型：正常；标签：无；计时：回合，延迟 0，持续 1（配置值）；触发清除：否；死亡清除：是；冲突处理：替换；显示：否"
+    },
+    {
+     "id": 1240102,
+     "name": "降神",
+     "description": "照-降神",
+     "rules": "类型：正常；标签：无；计时：当前行动回合，延迟 0，持续 1（配置值）；触发清除：否；死亡清除：是；冲突处理：替换；显示：是"
+    }
+   ]
+  },
+  {
+   "id": 12411,
+   "uses": [
+    "普通被动"
+   ],
+   "name": "狐火",
+   "description": "使用主动技能时，夺取目标[Astral=Buff:1241101][/Astral]层数的星币。自身或拥有[Astral=Buff:1240102][/Astral]的目标使用费用2及以上的攻击牌时，自身获得1层[Astral=Buff:1241101][/Astral]。",
+   "round": 0,
+   "parameters": [],
+   "buffs": [
+    {
+     "id": 1241101,
+     "name": "狐火",
+     "description": "狐火",
+     "rules": "类型：正常；标签：无；计时：无，延迟 0，持续 0（配置值）；触发清除：否；死亡清除：否；冲突处理：替换；显示：是"
+    }
+   ]
+  },
+  {
+   "id": 12402,
+   "uses": [
+    "PvE 主动"
+   ],
+   "name": "降神",
+   "description": "指定一个角色施加[Astral=Buff:1240202][/Astral]，本轮自身增加[Astral=Buff:1240202][/Astral]目标50%的攻击力与防御力。[Astral=Buff:1240202][/Astral]目标攻击后，照会消耗1层[Astral=Buff:1241201][/Astral]并进行追击，[Astral=Buff:1240202][/Astral]持续1回合。",
+   "round": 3,
+   "parameters": [],
+   "buffs": [
+    {
+     "id": 1240201,
+     "name": null,
+     "description": null,
+     "rules": "类型：正常；标签：无；计时：回合，延迟 0，持续 1（配置值）；触发清除：否；死亡清除：是；冲突处理：替换；显示：否"
+    },
+    {
+     "id": 1240202,
+     "name": "降神",
+     "description": "照-降神",
+     "rules": "类型：正常；标签：无；计时：当前行动回合，延迟 0，持续 1（配置值）；触发清除：否；死亡清除：是；冲突处理：替换；显示：是"
+    }
+   ]
+  },
+  {
+   "id": 12412,
+   "uses": [
+    "PvE 被动"
+   ],
+   "name": "狐火",
+   "description": "自身或拥有[Astral=Buff:1240202][/Astral]的目标使用费用2及以上的攻击牌时，自身获得1层[Astral=Buff:1241201][/Astral]。",
+   "round": 0,
+   "parameters": [],
+   "buffs": [
+    {
+     "id": 1241201,
+     "name": "狐光",
+     "description": "每层使自身追击攻击力+1",
+     "rules": "类型：正常；标签：无；计时：无，延迟 0，持续 0（配置值）；触发清除：否；死亡清除：否；冲突处理：替换；显示：是"
+    }
+   ]
+  }
+ ]
+}
